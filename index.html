@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kumar | Software Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Aditya Kumar, a Software Developer specializing in C#, .NET, and Microsoft Dynamics 365.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body data-theme="light">
+    <!-- Background Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <nav>
+                <a href="#home" class="logo">ADITYA.</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-toggle" title="Toggle Theme">
+                        <i data-lucide="moon" id="theme-icon"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h2 class="reveal">Hello, I'm</h2>
+                    <h1 class="reveal">Aditya Kumar</h1>
+                    <div class="typing-text reveal">
+                        I am a <span id="typed-text"></span><span class="cursor">|</span>
+                    </div>
+                    <p class="reveal" style="color: var(--text-muted); margin-bottom: 2rem; max-width: 500px; margin-left: 0; margin-right: 0;">
+                        Computer Science undergraduate passionate about backend development, APIs, and building scalable enterprise applications.
+                    </p>
+                    <div class="hero-btns reveal" style="justify-content: flex-start;">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline" download>Download CV <i data-lucide="download"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="image-card">
+                        <img id="hero-img-placeholder" alt="Aditya Kumar" src="assets/developer.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>
+                            I am a Computer Science undergraduate with strong skills in software development, problem-solving, and teamwork. My journey in tech is driven by a deep curiosity about how complex systems work and a passion for creating efficient solutions.
+                        </p>
+                        <p>
+                            Experienced in backend development using **C#** and **ASP.NET**, as well as **Microsoft Dynamics 365 Finance & Operations (D365 F&O)**. I love building APIs and exploring MVC architecture.
+                        </p>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <h4>Location</h4>
+                                <p>Greater Noida, India</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Email</h4>
+                                <p>araj93467@gmail.com</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Education</h4>
+                                <p>B.Tech in CS</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Freelance</h4>
+                                <p>Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats reveal">
+                        <!-- Education & Experience Cards -->
+                        <div class="skill-category">
+                            <h3>Quick Stats</h3>
+                            <ul style="color: var(--text-muted);">
+                                <li style="margin-bottom: 1rem;"><i data-lucide="check-circle" style="color: var(--primary); vertical-align: middle; margin-right: 0.5rem;"></i> Completed Diploma in CS</li>
+                                <li style="margin-bottom: 1rem;"><i data-lucide="check-circle" style="color: var(--primary); vertical-align: middle; margin-right: 0.5rem;"></i> Built 5+ scalable web apps</li>
+                                <li style="margin-bottom: 1rem;"><i data-lucide="check-circle" style="color: var(--primary); vertical-align: middle; margin-right: 0.5rem;"></i> Experienced in SQL & OOP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title reveal">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category reveal">
+                        <h3>Programming</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">X++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">OOP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <h3>Web & Frameworks</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">ASP.NET Core</span>
+                            <span class="skill-tag">React JS</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <h3>Tools & Concepts</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Git/GitHub</span>
+                            <span class="skill-tag">Visual Studio</span>
+                            <span class="skill-tag">API Dev</span>
+                            <span class="skill-tag">MVC Architecture</span>
+                            <span class="skill-tag">D365 F&O</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?q=80&w=2080&auto=format&fit=crop" alt="Library Management System">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>SQL</span>
+                            </div>
+                            <h3>Library Management System</h3>
+                            <p>A comprehensive system to manage books, users, and borrowing records using C++ and SQL database integration.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-outline btn" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Demo</a>
+                                <a href="https://github.com/araj93467" target="_blank"><i data-lucide="github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card reveal">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=2070&auto=format&fit=crop" alt="E-Commerce Website">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span>C#</span>
+                                <span>ASP.NET</span>
+                                <span>JS</span>
+                            </div>
+                            <h3>E-Commerce Website</h3>
+                            <p>Full-stack e-commerce solution with responsive design, secure payments flow, and administrative dashboard.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-outline btn" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Demo</a>
+                                <a href="https://github.com/araj93467" target="_blank"><i data-lucide="github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card reveal">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Nxt Trendz Clone">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span>React JS</span>
+                                <span>JWT</span>
+                                <span>API</span>
+                            </div>
+                            <h3>Nxt Trendz Clone</h3>
+                            <p>Modern shopping platform clone with JWT authentication, product filtering, and REST API integration.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-outline btn" style="padding: 0.4rem 1rem; font-size: 0.8rem;">Demo</a>
+                                <a href="https://github.com/araj93467" target="_blank"><i data-lucide="github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title reveal">Experience & Education</h2>
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mar 2023 - Jul 2023</span>
+                            <h3>Software Trainee</h3>
+                            <p style="color: var(--primary); font-weight: 500;">Techpro Compsoft Pvt Ltd</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                                Developed CRUD APIs using C# and ASP.NET Core. Worked on MVC architecture and backend system optimization.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2026</span>
+                            <h3>B.Tech in Computer Science</h3>
+                            <p style="color: var(--primary); font-weight: 500;">Undergraduate Degree</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                                Focusing on advanced data structures, algorithms, and enterprise software engineering.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h3>Diploma in Computer Science</h3>
+                            <p style="color: var(--primary); font-weight: 500;">Higher Secondary Education</p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                                Founded the base for programming, networking, and hardware systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title reveal">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info reveal">
+                        <h3>Let's talk about your project</h3>
+                        <p style="color: var(--text-muted);">I'm always looking for new opportunities and collaborations. Feel free to reach out!</p>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>araj93467@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 6287834744</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Greater Noida, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form reveal">
+                        <form id="portfolio-contact">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message <i data-lucide="send"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="logo">ADITYA.</a>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/aditya-kumar-317400172/" target="_blank" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="https://github.com/araj93467" target="_blank" title="GitHub"><i data-lucide="github"></i></a>
+                    <a href="#" title="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+            <p class="copyright">© 2026 Aditya Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
